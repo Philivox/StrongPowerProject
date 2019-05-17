@@ -4,9 +4,10 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
-import { ProductComponent } from './product/product.component';
-import { ProductListComponent } from './product-list/product-list.component';
+import { ProductComponent } from './ProductPage/product/product.component';
+import { ProductListComponent } from './ProductPage/product-list/product-list.component';
 import { AboutComponent } from './about/about.component';
+import { ProductRowComponent } from './ProductPage/product-row/product-row.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { AboutComponent } from './about/about.component';
     WelcomeComponent,
     ProductComponent,
     ProductListComponent,
-    AboutComponent
+    AboutComponent,
+    ProductRowComponent
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, HostBinding } from '@angular/core';
+import { Product } from '../product/product.component';
+import { Product-Row }
 
 @Component({
   selector: 'app-product-list',
